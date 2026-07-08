@@ -1,0 +1,20 @@
+{
+  "name": "playwright-fase2-dias-21-25",
+  "version": "1.0.0",
+  "description": "QA Insider Planner - Fase 2, Semana 5 (Dias 21-25): Automacao Web com Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "auth:setup": "playwright test tests/auth.setup.ts"
+  },
+  "keywords": ["playwright", "qa", "e2e", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.0",
+    "typescript": "^5.6.0"
+  }
+}
