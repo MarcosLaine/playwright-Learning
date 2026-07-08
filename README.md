@@ -5,6 +5,8 @@ uma suíte E2E profissional com Playwright + TypeScript, do setup ao CI/CD.
 
 Site de prática: [SauceDemo](https://www.saucedemo.com) · usuário `standard_user` / senha `secret_sauce`.
 
+> 📖 **Explicação dia a dia, detalhada (conceito + porquê de cada decisão):** veja o [GUIA_DETALHADO.md](GUIA_DETALHADO.md).
+
 ## Como rodar
 
 ```bash
